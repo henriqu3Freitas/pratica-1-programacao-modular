@@ -84,7 +84,10 @@ public class Pessoa {
         } else {
             return "Obesidade grau III";
         }
-
         }
+        
+    public void calculaImc(){
+        imc = peso / (altura * altura);
+    }
    }
 
